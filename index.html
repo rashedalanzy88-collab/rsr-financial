@@ -281,6 +281,13 @@ section:not(.hero):not(.about-premium) .head p{max-width:720px;margin:0 auto;col
 .contact-intro{padding:26px 22px 22px}.contact-kicker{display:inline-flex;align-items:center;gap:9px;color:#ad8130;font-weight:900;font-size:15px}.contact-kicker:before{content:"";width:34px;height:1px;background:#cfa548}.contact-intro h2{font-size:44px;line-height:1.22;margin:12px 0 14px;color:#071b2d}.contact-intro h2 span{color:#b58a34}.contact-intro>p{font-size:17px;line-height:1.95;color:#66727d;max-width:620px}.contact-methods{display:grid;grid-template-columns:1fr;gap:12px;margin-top:26px}.contact-method{display:flex;align-items:center;gap:14px;padding:15px 16px;border:1px solid #eadfca;border-radius:15px;background:#fff;text-decoration:none;transition:.25s ease}.contact-method:hover{transform:translateY(-2px);border-color:#cda557;box-shadow:0 10px 26px rgba(12,31,48,.07)}.contact-icon{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;background:#071b2d;color:#d6aa52;font-weight:900;font-size:18px;flex:0 0 auto}.contact-method b{display:block;color:#071b2d;font-size:15px;margin-bottom:3px}.contact-method span{color:#7b858e;font-size:14px}.contact-panel{position:relative;padding:28px;border-radius:21px;background:linear-gradient(145deg,#061524,#0a2237);color:#fff;box-shadow:inset 0 0 0 1px rgba(214,173,83,.18)}.contact-panel:after{content:"RSR";position:absolute;left:24px;bottom:7px;font-size:92px;line-height:1;color:rgba(255,255,255,.025);font-family:Georgia,serif;pointer-events:none}.contact-panel h3{font-size:25px;margin:0 0 7px}.contact-panel>p{color:#b8c1c9;margin:0 0 20px;line-height:1.8}.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:12px;position:relative;z-index:1}.contact-field{display:grid;gap:7px}.contact-field.full{grid-column:1/-1}.contact-field label{font-size:13px;font-weight:800;color:#d9c69b}.contact-field input,.contact-field textarea,.contact-field select{width:100%;border:1px solid rgba(255,255,255,.13);border-radius:12px;padding:13px 14px;background:rgba(255,255,255,.075);color:#fff;outline:none;font:inherit}.contact-field select option{color:#071b2d;background:#fff}.contact-field input::placeholder,.contact-field textarea::placeholder{color:#9eabb5}.contact-field input:focus,.contact-field textarea:focus,.contact-field select:focus{border-color:#d5aa55;box-shadow:0 0 0 3px rgba(213,170,85,.12)}.contact-field textarea{min-height:118px;resize:vertical}.contact-submit{grid-column:1/-1;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;margin-top:3px}.contact-submit .btn{min-height:52px;border:0;cursor:pointer}.contact-note{font-size:12px;color:#9eabb5;line-height:1.6}.contact-social-proof{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.proof-chip{padding:8px 12px;border-radius:999px;background:#fbf4e7;border:1px solid #ead6ac;color:#8c6824;font-size:12px;font-weight:800}
 @media(max-width:980px){.contact-shell{grid-template-columns:1fr;padding:24px}.contact-intro{padding:14px 8px}.contact-intro h2{font-size:36px}}
 @media(max-width:620px){.contact-shell{padding:16px;border-radius:19px}.contact-intro h2{font-size:31px}.contact-panel{padding:20px 16px}.contact-form{grid-template-columns:1fr}.contact-field.full,.contact-submit{grid-column:1}.contact-submit{grid-template-columns:1fr}.contact-method{padding:13px}.contact-panel:after{font-size:64px}}
+
+/* RSR 2026: executive additions with branded placeholders until portraits are provided */
+.lead-placeholder{display:grid;place-items:center;background:radial-gradient(circle at 50% 35%,#173955,#071b2b 68%);min-height:270px;position:relative;overflow:hidden}
+.lead-placeholder::before{content:"";position:absolute;width:155px;height:155px;border:1px solid rgba(214,173,83,.55);border-radius:50%;box-shadow:0 0 0 20px rgba(214,173,83,.06),0 0 0 42px rgba(214,173,83,.035)}
+.lead-placeholder strong{font-weight:900;font-size:45px;letter-spacing:2px;color:white;z-index:1}.lead-placeholder strong span{color:#d6ad53}
+@media(max-width:760px){.lead-placeholder{min-height:220px}.lead-placeholder strong{font-size:31px}}
+@media(max-width:520px){.lead-placeholder{min-height:235px}}
 </style>
 
 <style id="partners-clarity-v21">
@@ -419,7 +426,7 @@ section:not(.hero):not(.about-premium) .head p{max-width:720px;margin:0 auto;col
   <div class="team-intro">
     <div class="kicker">الهيكل الإداري</div>
     <h2>قيادة بخبرات متكاملة تقود RSR نحو النمو.</h2>
-    <p>فريق يجمع بين الإدارة والمالية والتسويق وتطوير الأعمال والمشاريع والمحاسبة، لخدمة العميل بمنظومة واحدة واضحة ومتكاملة.</p>
+    <p>فريق يجمع بين القيادة التنفيذية والإدارة المالية والعمليات والشؤون القانونية والمحاسبة وإدارة المشاريع والتسويق، لخدمة العميل بمنظومة واحدة واضحة ومتكاملة.</p>
   </div>
 
   <div class="team-label">القيادة التنفيذية</div>
@@ -446,6 +453,30 @@ section:not(.hero):not(.about-premium) .head p{max-width:720px;margin:0 auto;col
     </article>
   </div>
 
+
+  <div class="leadership-grid" aria-label="القيادة المالية والتشغيلية">
+    <article class="lead-card">
+      <div class="lead-placeholder" aria-label="شعار RSR"><strong>R<span>S</span>R</strong></div>
+      <div class="lead-body">
+        <span class="role-pill">المدير المالي · CFO</span>
+        <h3>محمد خالد</h3>
+        <div class="title">Chief Financial Officer</div>
+        <p class="bio">خبرة تتجاوز 15 عامًا في المحاسبة والتخطيط والتحليل المالي، اكتسبها من مجموعة ماجد الفطيم العقارية، وإرنشيا للتطوير العقاري، وإيفا فارما، والماجد للعود. يحمل شهادات DipIFR وFMVA وAFM، ويقود تطوير خدمات الإدارة المالية والإشراف الفني على الميزانيات والتقارير وتحليل الأداء.</p>
+        <div class="experience-line"><i></i> النمذجة المالية وإدارة الأداء والتقارير</div>
+      </div>
+    </article>
+    <article class="lead-card">
+      <div class="lead-placeholder" aria-label="شعار RSR"><strong>R<span>S</span>R</strong></div>
+      <div class="lead-body">
+        <span class="role-pill">مديرة العمليات · COO</span>
+        <h3>غالية العنزي</h3>
+        <div class="title">Chief Operating Officer</div>
+        <p class="bio">خبرة تمتد إلى 9 سنوات في الإدارة والعمليات الداخلية والتنسيق والمتابعة وخدمة العملاء. تتولى تنظيم سير العمل والتنسيق بين الإدارات ومتابعة تنفيذ المهام وتحسين تجربة العملاء وكفاءة التشغيل.</p>
+        <div class="experience-line"><i></i> تشغيل منظم وتجربة عميل متميزة</div>
+      </div>
+    </article>
+  </div>
+
   <div class="team-label">الإدارة المتخصصة</div>
   <div class="management-grid">
     <article class="manager-card">
@@ -463,6 +494,11 @@ section:not(.hero):not(.about-premium) .head p{max-width:720px;margin:0 auto;col
     <article class="manager-card">
       <div class="manager-monogram"><strong>R<span>S</span>R</strong></div>
       <div class="manager-content"><h3>ريناد الغامدي</h3><div class="title">مديرة المحاسبة</div><p class="summary">خبرة في المحاسبة العامة والخزينة والتسويات البنكية والتقارير المالية، مع تركيز على دقة العمليات والرقابة المالية.</p><details class="team-details"><summary>عرض الخبرة</summary><p>خبرة في القيود اليومية، الذمم، المصروفات، الخزينة والتقارير، مع بكالوريوس محاسبة وخبرة على أنظمة مثل Qoyod وSAP.</p></details></div>
+    </article>
+
+    <article class="manager-card">
+      <div class="manager-monogram"><strong>R<span>S</span>R</strong></div>
+      <div class="manager-content"><h3>محمد العنزي</h3><div class="title">أخصائي قانوني وصياغة العقود</div><p class="summary">بكالوريوس حقوق من جامعة الملك سعود، ويختص بالشؤون القانونية وصياغة العقود ومراجعتها وتنظيم العلاقات التعاقدية.</p><details class="team-details"><summary>عرض الاختصاص</summary><p>المساهمة في تطوير الأطر التعاقدية وتوضيح الحقوق والالتزامات وتعزيز الحوكمة وحماية المصالح التعاقدية للشركة.</p></details></div>
     </article>
   </div>
   <div class="team-note"><strong>خبرات متعددة — هدف واحد</strong><span>كل تخصص في الفريق يدعم الآخر لنقدم للعميل تجربة استشارية أكثر تكاملًا ووضوحًا.</span></div>
@@ -503,7 +539,7 @@ section:not(.hero):not(.about-premium) .head p{max-width:720px;margin:0 auto;col
   <div class="partners-note"><span></span><strong>تكامل خبرات • حلول أوسع • قيمة أكبر للعميل</strong><span></span></div>
 </div></section>
 
-<section id="contact"><div class="wrap reveal"><div class="contact-shell"><div class="contact-intro"><div class="contact-kicker">تواصل معنا</div><h2>ابدأ الخطوة الأولى نحو <span>إدارة أكثر وضوحًا.</span></h2><p>شاركنا احتياج منشأتك، وسيتواصل معك فريق RSR لتحديد الخدمة الأنسب في الإدارة المالية أو المحاسبة أو إدارة المشاريع.</p><div class="contact-methods"><a class="contact-method" href="https://wa.me/966533066791?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%20RSR" target="_blank" rel="noopener noreferrer"><div class="contact-icon">WA</div><div><b>واتساب مباشر</b><span dir="ltr">+966 53 306 6791</span></div></a><a class="contact-method" href="mailto:rsr.office88@gmail.com"><div class="contact-icon">@</div><div><b>البريد الإلكتروني</b><span>rsr.office88@gmail.com</span></div></a><a class="contact-method" href="tel:+966533066791"><div class="contact-icon">☎</div><div><b>اتصال مباشر</b><span dir="ltr">053 306 6791</span></div></a><div class="contact-method"><div class="contact-icon">⌖</div><div><b>الموقع</b><span>الرياض، المملكة العربية السعودية</span></div></div></div><div class="contact-social-proof"><span class="proof-chip">استشارة أولية</span><span class="proof-chip">حلول مخصصة</span><span class="proof-chip">تواصل مباشر</span></div></div><div class="contact-panel"><h3>خلّنا نفهم احتياجك</h3><p>املأ البيانات المختصرة وسيتم تجهيز رسالة واتساب تلقائيًا لفريق RSR.</p><form class="contact-form" id="waForm"><div class="contact-field"><label for="name">الاسم</label><input id="name" autocomplete="name" placeholder="الاسم الكامل" required></div><div class="contact-field"><label for="company">اسم المنشأة</label><input id="company" autocomplete="organization" placeholder="اسم المنشأة"></div><div class="contact-field"><label for="phone">رقم الجوال</label><input id="phone" type="tel" inputmode="tel" placeholder="05xxxxxxxx" autocomplete="tel" required></div><div class="contact-field"><label for="service">الخدمة المطلوبة</label><select id="service"><option value="الإدارة المالية">الإدارة المالية</option><option value="المحاسبة">المحاسبة</option><option value="إدارة المشاريع">إدارة المشاريع</option><option value="استشارة عامة">استشارة عامة</option></select></div><div class="contact-field full"><label for="msg">تفاصيل الاحتياج</label><textarea id="msg" placeholder="اكتب لنا باختصار ما الذي تحتاجه..."></textarea></div><div class="contact-submit"><button class="btn gold" type="submit">إرسال عبر واتساب</button><div class="contact-note">بالضغط على الإرسال سيتم فتح واتساب برسالة جاهزة، ولن تُرسل بياناتك لأي جهة أخرى من الموقع.</div></div></form></div></div></div></section>
+<section id="contact"><div class="wrap reveal"><div class="contact-shell"><div class="contact-intro"><div class="contact-kicker">تواصل معنا</div><h2>ابدأ الخطوة الأولى نحو <span>إدارة أكثر وضوحًا.</span></h2><p>شاركنا احتياج منشأتك، وسيتواصل معك فريق RSR لتحديد الخدمة الأنسب في الإدارة المالية أو المحاسبة أو إدارة المشاريع.</p><div class="contact-methods"><a class="contact-method" href="https://wa.me/966533066791?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%20RSR" target="_blank" rel="noopener noreferrer"><div class="contact-icon">WA</div><div><b>واتساب مباشر</b><span dir="ltr">+966 53 306 6791</span></div></a><a class="contact-method" href="mailto:info@rsr.sa"><div class="contact-icon">@</div><div><b>البريد الإلكتروني</b><span>info@rsr.sa</span></div></a><a class="contact-method" href="tel:+966533066791"><div class="contact-icon">☎</div><div><b>اتصال مباشر</b><span dir="ltr">053 306 6791</span></div></a><div class="contact-method"><div class="contact-icon">⌖</div><div><b>الموقع</b><span>الرياض، المملكة العربية السعودية</span></div></div></div><div class="contact-social-proof"><span class="proof-chip">استشارة أولية</span><span class="proof-chip">حلول مخصصة</span><span class="proof-chip">تواصل مباشر</span></div></div><div class="contact-panel"><h3>خلّنا نفهم احتياجك</h3><p>املأ البيانات المختصرة وسيتم تجهيز رسالة واتساب تلقائيًا لفريق RSR.</p><form class="contact-form" id="waForm"><div class="contact-field"><label for="name">الاسم</label><input id="name" autocomplete="name" placeholder="الاسم الكامل" required></div><div class="contact-field"><label for="company">اسم المنشأة</label><input id="company" autocomplete="organization" placeholder="اسم المنشأة"></div><div class="contact-field"><label for="phone">رقم الجوال</label><input id="phone" type="tel" inputmode="tel" placeholder="05xxxxxxxx" autocomplete="tel" required></div><div class="contact-field"><label for="service">الخدمة المطلوبة</label><select id="service"><option value="الإدارة المالية">الإدارة المالية</option><option value="المحاسبة">المحاسبة</option><option value="إدارة المشاريع">إدارة المشاريع</option><option value="استشارة عامة">استشارة عامة</option></select></div><div class="contact-field full"><label for="msg">تفاصيل الاحتياج</label><textarea id="msg" placeholder="اكتب لنا باختصار ما الذي تحتاجه..."></textarea></div><div class="contact-submit"><button class="btn gold" type="submit">إرسال عبر واتساب</button><div class="contact-note">بالضغط على الإرسال سيتم فتح واتساب برسالة جاهزة، ولن تُرسل بياناتك لأي جهة أخرى من الموقع.</div></div></form></div></div></div></section>
 </main>
 <a class="wa-float" href="https://wa.me/966533066791?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%20RSR" target="_blank" rel="noopener noreferrer" aria-label="واتساب"><svg viewBox="0 0 24 24"><path d="M20.52 3.48A11.89 11.89 0 0 0 12.05 0C5.48 0 .13 5.35.13 11.93c0 2.1.55 4.16 1.6 5.98L.03 24l6.23-1.64a11.91 11.91 0 0 0 5.78 1.47h.01c6.57 0 11.92-5.35 11.92-11.93 0-3.18-1.23-6.17-3.45-8.42ZM12.05 21.8h-.01a9.86 9.86 0 0 1-5.03-1.38l-.36-.21-3.7.98.99-3.61-.23-.37a9.84 9.84 0 0 1-1.51-5.28c0-5.45 4.42-9.88 9.86-9.88 2.63 0 5.1 1.03 6.96 2.9a9.79 9.79 0 0 1 2.88 6.97c0 5.45-4.42 9.88-9.85 9.88Zm5.42-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47a8.9 8.9 0 0 1-1.65-2.05c-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></svg></a>
 <footer class="footer">© 2026 RSR — Financial Consulting. جميع الحقوق محفوظة.</footer>
